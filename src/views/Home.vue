@@ -22,11 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
-              
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p.descripcion.mb-4 La unidad aborda los riesgos biológicos laborales, centrándose en la bioseguridad, prevención de accidentes y enfermedades profesionales. Explica la importancia de identificar agentes biológicos, evaluar su riesgo y cumplir con la normativa legal. Se describen sectores vulnerables como salud, laboratorios y agricultura. Introduce el método BIOGAVAL para evaluación de riesgos y destaca la necesidad de planes de acción, objetivos e indicadores para una gestión efectiva. La capacitación continua y el cumplimiento legal son claves para mitigar impactos en la salud de los trabajadores y garantizar entornos laborales seguros.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
