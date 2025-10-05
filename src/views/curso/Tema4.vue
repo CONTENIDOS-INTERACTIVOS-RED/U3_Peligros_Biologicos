@@ -140,155 +140,161 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes elementos NO forma parte del método BIOGAVAL para la evaluación del riesgo biológico?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Agente biológico',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
+                texto: 'Probabilidad de exposición',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
+                texto: 'Edad del trabajador',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Eficacia de las medidas de control',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La edad del trabajador no es un componente del método BIOGAVAL. Este método utiliza los factores A (Agente), P (Probabilidad), E (Eficacia del control) y N (Número de expuestos).',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'Según la normativa colombiana, ¿cuál decreto reconoce el COVID-19 como enfermedad laboral en el sector salud?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Decreto 1072 de 2015',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Decreto 676 de 2020',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Decreto 1477 de 2014',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Ley 1562 de 2012',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'El Decreto 676 de 2020 reconoce al COVID-19 como una enfermedad laboral para trabajadores del sector salud en Colombia.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál es la principal ventaja del uso del método BIOGAVAL en la gestión del riesgo biológico?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Evita por completo los accidentes biológicos.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
+                texto: 'Es obligatorio según el SG-SST.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
+                texto: 'Clasifica riesgos para priorizar acciones correctivas.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Se enfoca únicamente en agentes virales.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'El método BIOGAVAL permite clasificar el nivel de riesgo y priorizar medidas correctivas o preventivas según la exposición.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Cuál de las siguientes no es una enfermedad típicamente asociada a riesgos biológicos laborales?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Tuberculosis',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
+                texto: 'Leptospirosis',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
+                texto: 'Hipertensión arterial',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Hepatitis B',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La hipertensión arterial no está causada por exposición a agentes biológicos; en cambio, las demás son enfermedades infecciosas laborales comunes.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Cuál es el primer paso para gestionar eficazmente los peligros biológicos en el entorno laboral?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Implementar protocolos de limpieza.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
+                texto: 'Capacitar al personal.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
+                texto: 'Identificar y evaluar los riesgos.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Proveer EPP a todos los trabajadores.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La gestión efectiva del riesgo comienza con la identificación y evaluación de los peligros biológicos presentes en el entorno laboral.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],
