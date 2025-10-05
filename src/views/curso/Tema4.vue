@@ -1,10 +1,88 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'4. Título tema'")
+  BannerInterno(:subTitulo="'4. Objetivos, indicadores y planes de acción'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    #t_4_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 4.1] Subtítulo tema
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/1.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        .bg-color-1.p-5(data-aos="fade-left")
+          p La adecuada gestión de los peligros biológicos en los lugares de trabajo requiere más que su identificación y evaluación. Es necesario formular objetivos claros, darles seguimiento mediante indicadores de desempeño e implementar planes de acción efectivos. Estas estrategias orientan los esfuerzos institucionales hacia la prevención de enfermedades laborales y aseguran el cumplimiento del Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), según los requisitos legales vigentes en Colombia.
+          p.mb-0 Los peligros biológicos generan riesgos importantes, especialmente en sectores como la salud, la agroindustria, el manejo de residuos, los laboratorios y el saneamiento ambiental. Para controlar estos riesgos, es esencial transformar los resultados del diagnóstico en acciones planificadas, medibles y sostenidas en el tiempo. 
+    
+    .bg-full-width.bg-color-8.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/curso/tema4/2.svg", style="max-width: 90px").mx-auto
+          .col-lg.text-white
+            p.mb-0 A continuación, se presenta un podcast que aborda el establecimiento de objetivos, la definición de indicadores y la elaboración de planes de acción en la gestión del riesgo biológico, con un enfoque basado en los criterios SMART y en buenas prácticas de bioseguridad laboral.
+    
+    .bg-full-width.bg-color-13.mb-5
+      .p-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-6.mb-3.mb-lg-0
+            figure
+              img(src="@/assets/curso/tema4/3.svg", data-aos="zoom-in")
+          .col-lg-6
+            p(data-aos="fade-left").mb-4 Ahora, lo invitamos a escuchar el siguiente podcast.
+    
+            TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
+              texto="Fundamentos de la innovación estratégica"
+              tiempo
+              :audio="require('../../assets/curso/podcast/podcast1.mp3')"
+            )
+
+    .titulo-figura.mb-4
+      h5 Tabla 1.
+      span Ejemplo de plan de acción
+    .tabla-a.color-acento-botones.mb-5
+      table
+        thead
+          tr
+            th.bg-color-14.text-white.text-center Actividad
+            th.bg-color-14.text-white.text-center Responsable
+            th.bg-color-14.text-white.text-center Fecha límite
+            th.bg-color-14.text-white.text-center Indicador
+            th.bg-color-14.text-white.text-center Evidencia
+        tbody.bg-color-12
+          tr
+            th Capacitación en bioseguridad al personal clínico
+            td Área de SST
+            td 30/09/2029
+            td % de personal capacitado
+            td Listas de asistencia, informes
+          tr
+            th Implementar procedimiento para manejo de residuos biológicos
+            td Coordinación HSEQ
+            td 15/08/2029
+            td % de áreas con protocolo implementado
+            td Procedimientos aprobados, actas de socialización
+          tr
+            th Evaluar cumplimiento del protocolo de limpieza en laboratorios
+            td Supervisor SST
+            td Trimestral
+            td Nº de auditorías y hallazgos reportados
+            td Informes de auditoría
+
+    h2(data-aos="fade-left").mb-5 Seguimiento y mejora continua
+
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/4.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p(data-aos="fade-left").mb-0 Una vez ejecutadas las acciones, es necesario hacer seguimiento constante a los resultados, evaluar los indicadores y realizar ajustes o mejoras. Este proceso forma parte del ciclo PHVA (Planear, Hacer, Verificar, Actuar), obligatorio dentro del SG-SST.
+        p Además, los resultados deben ser comunicados a la alta dirección y al personal involucrado, promoviendo la participación y el compromiso con la bioseguridad.
+    
+        .bg-color-10.p-4(data-aos="fade-left")
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema4/5.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Establecer objetivos, indicadores y planes de acción convierte el diagnóstico de riesgos biológicos en una estrategia concreta de prevención. Esta planificación protege la salud de los trabajadores, fortalece el cumplimiento legal y promueve entornos laborales más seguros, sostenibles y responsables, basados en una cultura de mejora continua.
 
     .bg-full-width.border-top.actividad.bg-color-actividad
       .p-4.p-md-5
@@ -18,9 +96,9 @@
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
-            p.d-flex.my-4
-            img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-            a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/172495 " target="_blank" rel="noopener noreferrer") Simes, L. E. (2020). Manual de bioseguridad y bioprotección: ( ed.). Jorge Sarmiento Editor - Universitas. 
+          p.d-flex.my-4
+            img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+            | Organización Mundial de la Salud (OMS). (2014). Guía para la gestión de riesgos biológicos en el lugar de trabajo. OMS.
 
 
 
@@ -33,7 +111,9 @@
 
           p.d-flex.my-4
             img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-            a(href="https://youtu.be/v6yVkMvx0_Y?si=t187EIHbG2hESoIF " target="_blank" rel="noopener noreferrer") Artesanías de Colombia. (2020, 26 de mayo) Cómo hacer tu protocolo de bioseguridad. [Video] YouTube.  
+            a(href="https://youtu.be/mcVBMlAfrgc?si=BqZ3PamXd6Ylm3_z" target="_blank" rel="noopener noreferrer") Proinovative (2025, 3 de marzo) Webinar de Preguntas y Respuestas Fondos para laboratorios,organismos de inspección y certificación. [Video] YouTube.  
+
+ 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

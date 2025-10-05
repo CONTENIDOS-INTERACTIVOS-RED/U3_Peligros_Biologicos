@@ -133,7 +133,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-12
               .row.justify-content-center.align-items-center
-                .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0.order-2
+                .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0.order-2.p-5.p-lg-0
                   p **Los accidentes laborales por riesgo biológico son eventos inesperados que exponen involuntariamente al trabajador a agentes peligrosos como virus, bacterias, hongos u otros microorganismos patógenos. Estos incidentes pueden tener consecuencias graves para la salud, desde infecciones leves hasta enfermedades graves o incluso la muerte en casos extremos, por lo que requieren atención inmediata y protocolos específicos.
                   p Este tipo de accidentes ocurre con mayor frecuencia en sectores como el de la salud, laboratorios, centros de investigación y actividades que implican la manipulación de muestras biológicas. La exposición puede derivarse de diversas situaciones que deben ser reconocidas y abordadas de manera oportuna para reducir los riesgos.
                   p.mb-0 A continuación, se resumen las formas más comunes de accidentes por riesgo biológico:

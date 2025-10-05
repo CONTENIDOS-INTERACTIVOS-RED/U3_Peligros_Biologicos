@@ -122,7 +122,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-12
           .row.justify-content-center.align-items-center
-            .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0.order-2
+            .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0.order-2.p-5.p-lg-0
               ul.lista-ul--color
                 li.mb-0.d-flex
                   i.far.fa-arrow-alt-circle-right
